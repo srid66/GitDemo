@@ -1,0 +1,35 @@
+WebDriver Locators:
+
+ID - ex: findElemenByID
+Name
+Xpath
+CSS
+ClassName
+linkText
+
+customised CSS syntax
+attribute-value
+$("input[name='name']")
+
+CUSTOMISED XPATH SYNTAX
+//tagname@attribute-value
+//input[@type='submit']
+
+generating css from id
+*********************
+tagname#ID
+
+generating css from classname
+*****************************
+tagname.classname
+
+generating xpath using text
+**************************
+//tagname[text()='xxx']
+
+creating Xpath and CSS by Traversing Tags
+*****************************************
+xpath: ParentTag/Childtag
+css: parentTag Childtag
+
+select 
